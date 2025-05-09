@@ -1,0 +1,136 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Next Play</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/frontend/paginatorneio/style.css">
+</head>
+
+<body class="bg-black">
+  <header class="bg-black">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <img alt="eSportify logo" class="h-12" height="50" src="images/bunny maior.png" width="50" />
+      <nav class="space-x-4">
+        <a class="text-gray-400 hover:text-white" id="Inicial" href="../paginainicial/inicio.HTML"> Pagina Inicial </a>
+        <a class="text-gray-400 hover:text-white" id="Perfil" href="#"> Perfil </a>
+        <a class="text-gray-400 hover:text-white" id="cadastro" href="../paginacadastro/cadastro.html"> Sign in </a>
+        <a class="bg-gray-200 text-black px-4 py-2 rounded" id="Registro" href="../paginacadastro/cadastro.html">
+          Registro </a>
+      </nav>
+    </div>
+  </header>
+  <main class="container mx-auto px-4 py-8" style="display: flex; align-items: center; justify-content: center;">
+    <div class="text-center mb-8">
+
+      <div class="card2" id="card2">
+        <div class="content2">
+          <img id="bannerImage" alt="eSportify banner" src="images/NEXTPLAY.png" />
+        </div>
+      </div>
+      <br><br>
+      <button class="button1">
+        <span class="span-button1"> ASSISTA </span>
+      </button>
+
+    </div>
+
+    </aside>
+    <section class="w-full md:w-3/4 px-4">
+      <div class="divisao">
+        <div class="cards">
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif2.gif');">
+            <img src="./images/torneioGif2.gif" alt="Torneio 2" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 2</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif1.gif');">
+            <img src="./images/torneioGif1.gif" alt="Torneio 1" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 1</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif4.gif');">
+            <img src="./images/torneioGif4.gif" alt="Torneio 4" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 4</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif3.gif');">
+            <img src="./images/torneioGif3.gif" alt="Torneio 3" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 3</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif7.gif');">
+            <img src="./images/torneioGif7.gif" alt="Torneio 6" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 6</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif5.gif');">
+            <img src="./images/torneioGif5.gif" alt="Torneio 5" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 5</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif6.gif');">
+            <img src="./images/torneioGif6.gif" alt="Torneio 6" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 6</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif9.gif');">
+            <img src="./images/torneioGif9.gif" alt="Torneio 6" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 6</p>
+          </button>
+
+          <button class="card blue" onclick="changeImage('./images/torneioGif8.gif');">
+            <img src="./images/torneioGif8.gif" alt="Torneio 6" class="card-image">
+            <p class="tip">Torneios</p>
+            <p class="second-text">Torneio 6</p>
+          </button>
+
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-3 space-x-10">
+        <a class="text-gray-400 hover:text-white" href="./torneios2.HTML"> ← Anterior </a>
+        <div class="space-x-2">
+          <a class="text-gray-400 hover:text-white" href="./torneios.HTML"> 1 </a>
+          <a class="text-gray-400 hover:text-white" href="./torneios2.HTML"> 2 </a>
+          <a class="text-gray-400 hover:text-white" href="./torneios3.HTML"> 3 </a>
+        </div>
+        <a class="text-gray-400 hover:text-white" href="./torneios.HTML"> Proxima → </a>
+      </div>
+    </section>
+    </div>
+  </main>
+  <footer class="bg-gray-800 mt-1 py-2">
+    <div class="container mx-auto px-4 text-center">
+      <div class="flex justify-center mb-1">
+        <a href="#" class="text-gray-400 hover:text-white mx-2">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white mx-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white mx-2">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="text-gray-400">© 2025 Next Play - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="/frontend/paginatorneio/torneio.js"></script>
+</body>
+
+</html>

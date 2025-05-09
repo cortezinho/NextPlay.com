@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Campeonatos</title>
+    <link rel="stylesheet" href="./style/cadastro.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Campeonatos</h1>
+    </header>
+
+    <!-- Cadastro de Evento -->
+    <section id="evento">
+        <h2>Cadastrar Novo Campeonato</h2>
+        <form id="formEvento">
+            <label for="nomeEvento">Nome do Evento:</label>
+            <input type="text" id="nomeEvento" required>
+
+            <label for="modalidadeEvento">Modalidade:</label>
+            <select id="modalidadeEvento" required>
+                <option value="">Selecione uma modalidade</option>
+                <option value="Free Fire">Free Fire</option>
+                <option value="Valorant">Valorant</option>
+                <option value="League of Legends">League of Legends</option>
+                <option value="CS2">CS2</option>
+                <option value="FIFA">FIFA</option>
+                <option value="Just Dance">Just Dance</option>
+            </select>
+            <label>Requisitos:</label>
+            <div id="requisitosEvento">
+                <label><input type="checkbox" value="18 Anos"> 18 anos +</label>
+                <label><input type="checkbox" value="Ter equipe"> Ter equipe</label>
+                <label><input type="checkbox" value="Discord"> Discord</label>
+            </div>
+            
+            <button type="submit">Cadastrar Evento</button>
+            <br>  <br>  <br>
+            <div id="res">
+
+            </div>
+        </form>
+    </section>
+
+    <script src="./script/cadastro.js"></script>
+</body>
+</html>
